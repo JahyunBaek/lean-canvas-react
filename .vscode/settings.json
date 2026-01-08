@@ -11,5 +11,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }

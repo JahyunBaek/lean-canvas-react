@@ -32,6 +32,7 @@ export default defineConfig([
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
       'react/self-closing-comp': 'warn',
+      'react/prop-types': 'off',
     },
   },
 ]);
