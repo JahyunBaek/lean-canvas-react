@@ -7,6 +7,7 @@ import About from './pages/About.jsx';
 import './index.css';
 import App from './App.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
+import CavnasDetail from './pages/CanvasDetail.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'cavases/:id',
+        element: <CavnasDetail />,
       },
     ],
   },
