@@ -6,10 +6,12 @@ import Contact from './pages/Contact.jsx';
 import About from './pages/About.jsx';
 import './index.css';
 import App from './App.jsx';
+import ErrorPage from './pages/ErrorPage.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '',
